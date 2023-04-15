@@ -114,14 +114,14 @@ require('lazy').setup({
     },
   },
 
-  {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'onedark'
-    end,
-  },
+--  {
+--    -- Theme inspired by Atom
+--    'navarasu/onedark.nvim',
+--    priority = 1000,
+--    config = function()
+--      vim.cmd.colorscheme 'onedark'
+--    end,
+--  },
 
   {
     -- Set lualine as statusline
@@ -374,7 +374,7 @@ vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
 
 -- Neotree keymaps
-vim.keymap.set('n', '<leader>nt', ':Neotree toggle<CR>', { desc = 'Toggle [N]eo[T]ree' })
+--vim.keymap.set('n', '<leader>nt', ':Neotree toggle<CR>', { desc = 'Toggle [N]eo[T]ree' })
 
 -- LSP settings.
 --  This function gets run when an LSP connects to a particular buffer.
