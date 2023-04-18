@@ -113,12 +113,19 @@ require('lazy').setup({
       },
     },
   },
+--  {
+--    -- Theme 
+--    'ellisonleao/gruvbox.nvim',
+--    priority = 1000,
+--    config = function()
+--      vim.cmd.colorscheme 'gruvbox'
+--    end,
+--  },
   {
-    -- Theme 
-    'ellisonleao/gruvbox.nvim',
+    'jacoborus/tender.vim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'gruvbox'
+      vim.cmd.colorscheme 'tender'
     end,
   },
   {
