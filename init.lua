@@ -122,10 +122,10 @@ require('lazy').setup({
 --    end,
 --  },
   {
-    'jacoborus/tender.vim',
+    'sainnhe/sonokai',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'tender'
+      vim.cmd.colorscheme 'sonokai'
     end,
   },
   {
