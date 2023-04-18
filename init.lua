@@ -436,6 +436,7 @@ local servers = {
   jdtls = {},
   -- gopls = {},
   -- pyright = {},
+  pylsp = {},
   rust_analyzer = {},
   -- tsserver = {},
 
