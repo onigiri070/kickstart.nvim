@@ -202,6 +202,13 @@ require('lazy').setup({
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
+-- Set custome filetypes
+-- PICO-8 source files
+vim.filetype.add({
+  extension = {
+    p8 = 'lua',
+  },
+})
 
 -- Set highlight on search
 vim.o.hlsearch = false
