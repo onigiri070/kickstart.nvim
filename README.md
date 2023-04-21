@@ -1,4 +1,8 @@
-# kickstart.nvim
+# nvim
+
+Personal NeoVim configuration using [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) as a base. 
+
+---
 
 ### Introduction
 
