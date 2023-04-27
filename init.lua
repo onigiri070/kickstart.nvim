@@ -255,6 +255,8 @@ vim.o.shiftwidth = 4
 vim.o.expandtab = true
 vim.o.smartindent = true
 
+-- Enable rustfmt on save
+-- vim.o.rustfmt_autosave = 1
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
@@ -442,6 +444,7 @@ local servers = {
   clangd = {},
   jdtls = {},
   -- gopls = {},
+  golangci_lint_ls = {},
   -- pyright = {},
   pylsp = {},
   rust_analyzer = {},
